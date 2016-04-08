@@ -3,33 +3,42 @@
 <head>
 <meta charset="utf-8">
   <title>Register</title>
-  <link rel="stylesheet" href="../css/style_index.css">
+   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../css/style_register.css">
 </head>
 <body>
-    <div id="recipiente">
-      <div id="cadastro">
+	<header>
+    	<a href="">WSOD</a>
+    	<a href="">Home</a>
+    	<a href="">Sign Up</a>
+    	<a href="">Login</a>
+    	<a href="">Tournaments</a>
+    </header>
+
+    <div class="container">
+      <div id="register">
           	<form>
           		<div class="tableRow">
           			<h2>Insert your Information</h2>
           		</div>
 	          	<div class="tableRow">
 	          		<p> Name: </p>
-					<p> <input type="text" name="name" value=""> </p>	
+					<p> <input type="text" name="name" value="" placeholder="Full name"> </p>	
 				</div>
 
 				<div class="tableRow">
-	          		<p> Nick Name: </p>
-					<p> <input type="text" name="nickName" value=""> </p>	
+	          		<p> Nickname: </p>
+					<p> <input type="text" name="nickName" value="" placeholder="Nickname user"> </p>	
 				</div>
 
 				<div class="tableRow">
 	          		<p> E-mail: </p>
-					<p> <input type="email" name="e-mail" value=""> </p>	
+					<p> <input type="email" name="e-mail" value="" placeholder="Enter a valid email address"> </p>	
 				</div>
 
 				<div class="tableRow">
-	          		<p> confirm e-mail: </p>
-					<p> <input type="email" name="confirm-email" value=""> </p>	
+	          		<p> Confirm e-mail: </p>
+					<p> <input type="email" name="confirm-email" value="" placeholder="Confirm the email address"> </p>	
 				</div>
 
 				<div class="tableRow">
@@ -39,23 +48,31 @@
 
 				<div class="tableRow">
 	          		<p> Password: </p>
-					<p> <input type="password" name="password" value=""> </p>	
+					<p> <input type="password" name="password" value="" placeholder="Enter with a password"> </p>	
 				</div>
 
 				<div class="tableRow">
 	          		<p> Confirm Password: </p>
-					<p> <input type="password" name="confirm-password" value=""> </p>	
+					<p> <input type="password" name="confirm-password" value="" placeholder="Confirm your password"> </p>	
 				</div>
 
-				<div class="tableRow">
-	          		<input type="checkbox" name="spice" value="">
-	          		<p>I agree the terms.</p>
-				</div>
-			
-				<div class="tableRow">
-					<input type="submit">
-				</div>			
+				<div class="tableRow teste">
+	          		<p id="termCompromise"><a href="#">I agree the terms.</a></p>
+	          		<input id="check" type="checkbox" name="spice" value="">
+
+	          		<input id="button" type="submit" name="theButton">
+				</div>	
           	</form>
     	</div>
+
+    <footer>
+	  <div class="container">
+	    <ul class="social">
+	      <li><a href="http://facebook.com/#">Facebook</a></li>
+	      <li><a href="http://twitter.com/#">Twitter</a></li>
+	      <li><a href="http://plus.google.com/#">Google+</a></li>
+	    </ul>
+	  </div>
+	</footer>
 </body>
 </html>

@@ -1,26 +1,15 @@
 body {
-	background-image: url(../img/02.jpg);    
-    background-repeat: no-repeat;
-    background-position: top center;
+	background-image: url(../img/05.jpg);
+	background-repeat: no-repeat;	
+	background-position: top center;
     background-attachment: fixed;
     background-size: 1288px 800px;
 
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	position: relative;
-}
 
-h3{
-	text-align: center;
-	text-decoration: underline;
-	color: #0099FF;
-	font-size: 28px;
 }
-
-#recipiente h2, p{
-	text-align: center;
-}
-
 header{
 	background-color: #333;
 	display: flex;
@@ -41,7 +30,6 @@ header a{
 
 header a:hover{
 	text-decoration: underline;
-	color: #fff;
 }
 
 header a:link, a:visited{
@@ -52,66 +40,51 @@ header a:first-child{
 	flex:2;
 }
 
-#recipiente {
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #111;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	margin-bottom: -16px;
-
-}
-
-#recipiente h1{
+p, h2{
+	color: #0099FF;
 	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-size: 36px;
+	margin: 0 auto;
 	text-align: center;
-	font-size: 48px;
+	text-shadow: 1px 1px #fff;
+}
+
+#userLogin p {
+	margin: 0px;
+	padding: 3px;
+	font-size: 16px;
+}
+
+#userLogin {
+	padding: 10px;
+	margin: auto;
+	width: 450px;
+	box-sizing: border-box;
+	background-color: #111; 
+}
+
+.tableRow input{
+	border-radius: 10px;
+	width: 400px;
+	height: 20px;
+	font-size: 16px;
+	color: #000;
+}
+/*
+#button {
+	width: 150px;	
+	height: 25px;
+	right: 20px;
+	margin-top: 10px;
+	color: #696969;
+
+}
+*/
+#button:hover{
 	color: #0099FF;
-}
-
-#recipiente h2{
-	font-size: 26px;
-}
-
-#media img{ 
-	display: inline;
-	width: 320px;
-}
-
-.leftphoto{
-	padding-left: 120px;
-}
-
-.rightphoto{
-	padding-left: 20px;
-}
-
-#media img:last-child{
-    padding-top: 20px;
-}
-.tournamenttitle{
-	color: #0099FF;
-	text-decoration: underline;
-}
-
-#descricao {
-	border: 1px solid #000;
-	text-align: justify;
-}
-
-#descricao h2 {
-	font-family: 'Verdana';
-	font-size: 24px;
-	text-align: center;
-}
-
-#registro {
-	margin-top: 2px;
-	padding: 2px;
-	border: 1px solid #000;
-	/*width: 600px;*/
-	position: relative;
 }
 
 /*------------------RODAPÉ----------------------*/
@@ -119,12 +92,18 @@ header a:first-child{
 footer {
   background-image: url(../img/fundo-rodape.png);
   clear: both;
+  padding: 20px 0
 }
 
-footer{
+footer .container {
+    position: relative;
+}
+
+.social {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    top: 12px;
+    right: 0;
+    list-style-type: none;
 }
 
 .social a {
