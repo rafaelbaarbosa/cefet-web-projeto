@@ -1,0 +1,64 @@
+form {
+	width: 400px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+#login_header {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#imgLogo {
+	width: 100px;
+}
+
+p, h2,h1{
+	color: #0099FF;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-size: 36px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: #0099FF;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+#button:hover{
+	color: #0000CD;
+}
+
+.containerS {
+	padding: 10px;
+	margin: auto;
+	width: 450px;
+	box-sizing: border-box;
+	background-color: #111; 
+}
+
+.containerS p {
+	margin: 0px;
+	padding: 4px 0px 0px 0px;
+	font-size: 16px;
+}
+
+.tableRow input{
+	border-radius: 5px;
+	width: 400px;
+	height: 25px;
+	font-size: 16px;
+	color: #000;
+	box-sizing: border-box;
+	text-align: center;
+}

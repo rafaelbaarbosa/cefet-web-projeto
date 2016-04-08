@@ -1,51 +1,9 @@
 body {
   background-image: url(../img/06.jpg);
-  background-repeat: no-repeat; 
-  background-position: top center;
-  background-attachment: fixed;
-  background-size: 1288px;
-
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  position: relative;
-
-}
-header{
-  background-color: #333;
-  display: flex;
-  padding: 1em;
-  text-align: center;
-  color: white;
-  margin-top: -8px;
-  margin-left: -8px;
-  margin-right: -8px;
 }
 
-header a{
-  flex:1;
-  padding: 0.5em;
-  color: #0099FF;
-  font-weight: bold;
-}
-
-header a:hover{
-  text-decoration: underline;
-}
-
-header a:link, a:visited{
-  text-decoration: none;
-}
-
-header a:first-child{
-  flex:2;
-}
-
-#recipiente {
-  padding: 10px;
-  margin: auto;
+.containerS {
   width: 950px;
-  box-sizing: border-box;
-  background-color: #111; 
 }
 
 #teste {
@@ -69,7 +27,8 @@ header a:first-child{
 #msgWelcome > p{
   position: absolute;
   margin: 0px;  
-  top:60px;  
+  top:60px;
+  color: #fff;
 }
 
 #button {
@@ -81,10 +40,6 @@ header a:first-child{
   color: #0099FF;
 }
 
-#button:hover{
-  color: #0000CD;
-}
-
 table, th, td {
     border: 1px solid #111;
     border-collapse: collapse;
@@ -94,52 +49,3 @@ table, th, td {
     background-color: #696969;
     margin: auto;
 }
-
-/*------------------RODAPÉ----------------------*/
-
-footer {
-  background-image: url(../img/fundo-rodape.png);
-  clear: both;
-  padding: 20px 0
-}
-
-footer .container {
-    position: relative;
-    top: 0px;
-}
-
-.social {
-    position: absolute;
-    top: 12px;
-    right: 20px;    
-    list-style-type: none;
-
-}
-
-.social a {
-  /* tamanho da imagem */
-  height: 32px;
-  width: 32px;
-
-  /* image replacement */
-  display: block;
-  text-indent: -9999px;  
-}
-
-.social a[href*="facebook.com"] {
-  background-image: url(../img/facebook.png);
-}
-
-.social a[href*="twitter.com"] {
-  background-image: url(../img/twitter.png);
-}
-
-.social a[href*="plus.google.com"] {
-  background-image: url(../img/googleplus.png);
-}
-
-.social li {
-    float: left;
-    margin-left: 25px;
-}
-

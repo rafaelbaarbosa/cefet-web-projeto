@@ -1,0 +1,41 @@
+body {
+	background-repeat: no-repeat;	
+	background-position: top center;
+    background-attachment: fixed;
+    background-size: 1288px 800px;
+
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position: relative;
+
+}
+
+header{
+	background-color: #333;
+	display: flex;
+	padding: 1em;
+	text-align: center;
+	color: white;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+header a{
+	flex:1;
+	padding: 0.5em;
+	color: #0099FF;
+	font-weight: bold;
+}
+
+header a:hover{
+	text-decoration: underline;
+}
+
+header a:link, a:visited{
+	text-decoration: none;
+}
+
+header a:first-child{
+	flex:2;
+}

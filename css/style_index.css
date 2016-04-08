@@ -1,13 +1,5 @@
 body {
 	background-image: url(../img/02.jpg);    
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    background-size: 1288px 800px;
-
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	position: relative;
 }
 
 h3{
@@ -17,39 +9,13 @@ h3{
 	font-size: 28px;
 }
 
-#recipiente h2, p{
-	text-align: center;
-}
-
-header{
-	background-color: #333;
-	display: flex;
-	padding: 1em;
-	text-align: center;
-	color: white;
-	margin-top: -8px;
-	margin-left: -8px;
-	margin-right: -8px;
-}
-
-header a{
-	flex:1;
-	padding: 0.5em;
-	color: #0099FF;
-	font-weight: bold;
-}
-
 header a:hover{
-	text-decoration: underline;
 	color: #fff;
 }
 
-header a:link, a:visited{
-	text-decoration: none;
-}
-
-header a:first-child{
-	flex:2;
+#recipiente h2, p{
+	text-align: center;
+	color: #fff;
 }
 
 #recipiente {
@@ -60,7 +26,6 @@ header a:first-child{
 	padding-top: 1px;
 	padding-bottom: 1px;
 	margin-bottom: -16px;
-
 }
 
 #recipiente h1{
@@ -72,6 +37,8 @@ header a:first-child{
 
 #recipiente h2{
 	font-size: 26px;
+	color: #fff;
+	text-shadow: 0px 0px;
 }
 
 #media img{ 
@@ -95,26 +62,6 @@ header a:first-child{
 	text-decoration: underline;
 }
 
-#descricao {
-	border: 1px solid #000;
-	text-align: justify;
-}
-
-#descricao h2 {
-	font-family: 'Verdana';
-	font-size: 24px;
-	text-align: center;
-}
-
-#registro {
-	margin-top: 2px;
-	padding: 2px;
-	border: 1px solid #000;
-	/*width: 600px;*/
-	position: relative;
-}
-
-/*------------------RODAPÉ----------------------*/
 
 footer {
   background-image: url(../img/fundo-rodape.png);
