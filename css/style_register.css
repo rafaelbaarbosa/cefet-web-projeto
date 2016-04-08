@@ -67,11 +67,13 @@ h2 {
 }
 
 .tableRow input{
-	border-radius: 20px;
+	border-radius: 5px;
 	width: 400px;
-	height: 20px;
+	height: 25px;
 	font-size: 16px;
-	color: #000;
+	color: #000;	
+	box-sizing: border-box;
+	text-align: center;
 }
 
 .teste {
@@ -129,6 +131,7 @@ footer {
 
 footer .container {
     position: relative;
+    width: 1288px;
 }
 
 .social {

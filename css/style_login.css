@@ -87,6 +87,17 @@ h2 {
 	text-align: center;
 }
 
+a:link {
+	text-decoration: none;
+	color: #0099FF;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
 #button {	
 	margin-top: 15px;	
 	height: 30px;
@@ -116,6 +127,7 @@ footer {
 
 footer .container {
     position: relative;
+    width: 1288px;
 }
 
 .social {
