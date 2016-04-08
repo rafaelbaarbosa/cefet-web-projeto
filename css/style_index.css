@@ -1,11 +1,97 @@
 body {
-	margin: 0 auto;
-	width: 900px
+	background-image: url(../img/02.jpg);    
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 1288px 800px;
+
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position: relative;
+}
+
+h3{
+	text-align: center;
+	text-decoration: underline;
+	color: #0099FF;
+	font-size: 28px;
+}
+
+#recipiente h2, p{
+	text-align: center;
+}
+
+header{
+	background-color: #333;
+	display: flex;
+	padding: 1em;
+	text-align: center;
+	color: white;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+header a{
+	flex:1;
+	padding: 0.5em;
+	color: #0099FF;
+	font-weight: bold;
+}
+
+header a:hover{
+	text-decoration: underline;
+}
+
+header a:link, a:visited{
+	text-decoration: none;
+}
+
+header a:first-child{
+	flex:2;
 }
 
 #recipiente {
-	border: 1px solid red;
-	padding: 20px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #111;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: -16px;
+
+}
+
+#recipiente h1{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 48px;
+	color: #0099FF;
+}
+
+#recipiente h2{
+	font-size: 26px;
+}
+
+#media img{ 
+	display: inline;
+	width: 320px;
+}
+
+.leftphoto{
+	padding-left: 120px;
+}
+
+.rightphoto{
+	padding-left: 20px;
+}
+
+#media img:last-child{
+    padding-top: 20px;
+}
+.tournamenttitle{
+	color: #0099FF;
+	text-decoration: underline;
 }
 
 #descricao {
@@ -82,18 +168,12 @@ img {
 footer {
   background-image: url(../img/fundo-rodape.png);
   clear: both;
-  padding: 20px 0
 }
 
-footer .container {
-    position: relative;
-}
-
-.social {
+footer{
     position: absolute;
-    top: 12px;
-    right: 0;
-
+    bottom: 0px;
+    right: 0px;
 }
 
 .social a {
