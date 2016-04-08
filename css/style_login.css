@@ -100,7 +100,7 @@ a:hover {
 
 #button {	
 	margin-top: 15px;	
-	height: 30px;
+	height: 25px;
 	color: #0099FF;	
 }
 
@@ -130,6 +130,10 @@ a:hover {
 
 .password > p > span > a:hover {
 	color: #0099FF;
+}
+
+.tableRow #msgPass{
+	color: #fff;
 }
 /*------------------RODAPÉ----------------------*/
 
