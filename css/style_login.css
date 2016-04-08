@@ -1,5 +1,5 @@
 body {
-	background-image: url(../img/05.jpg);
+	background-image: url(../img/03.jpg);
 	background-repeat: no-repeat;	
 	background-position: top center;
     background-attachment: fixed;
@@ -40,7 +40,13 @@ header a:first-child{
 	flex:2;
 }
 
-p, h2{
+form {
+	width: 400px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+p, h2,h1{
 	color: #0099FF;
 	font-family: 'Roboto', sans-serif;
 }
@@ -54,7 +60,7 @@ h2 {
 
 #userLogin p {
 	margin: 0px;
-	padding: 3px;
+	padding: 4px 0px 0px 0px;
 	font-size: 16px;
 }
 
@@ -65,26 +71,39 @@ h2 {
 	box-sizing: border-box;
 	background-color: #111; 
 }
+#userLogin > h1{
+	text-align: center;
+	margin: 0px;
+	font-size: 20px;
+}
 
 .tableRow input{
-	border-radius: 10px;
+	border-radius: 5px;
 	width: 400px;
-	height: 20px;
+	height: 25px;
 	font-size: 16px;
 	color: #000;
+	box-sizing: border-box;
+	text-align: center;
 }
-/*
-#button {
-	width: 150px;	
-	height: 25px;
-	right: 20px;
-	margin-top: 10px;
-	color: #696969;
 
+#button {	
+	margin-top: 15px;	
+	height: 30px;
+	color: #0099FF;	
 }
-*/
+
 #button:hover{
-	color: #0099FF;
+	color: #0000CD;
+}
+
+#login_header {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#imgLogo {
+	width: 100px;
 }
 
 /*------------------RODAPÉ----------------------*/
