@@ -40,6 +40,15 @@ header a:first-child{
 	flex:2;
 }
 
+#login_header {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#imgLogo {
+	width: 100px;
+}
+
 form {
 	width: 400px;
 	margin: auto;
@@ -58,24 +67,20 @@ h2 {
 	text-shadow: 1px 1px #fff;
 }
 
-#userLogin p {
+#recipiente p {
 	margin: 0px;
 	padding: 4px 0px 0px 0px;
 	font-size: 16px;
 }
 
-#userLogin {
+#recipiente {
 	padding: 10px;
 	margin: auto;
 	width: 450px;
 	box-sizing: border-box;
 	background-color: #111; 
 }
-#userLogin > h1{
-	text-align: center;
-	margin: 0px;
-	font-size: 20px;
-}
+
 
 .tableRow input{
 	border-radius: 5px;
@@ -108,33 +113,8 @@ a:hover {
 	color: #0000CD;
 }
 
-#login_header {
-	margin-top: 20px;
-	text-align: center;
-}
 
-#imgLogo {
-	width: 100px;
-}
 
-.password > p > span {
-	float: right;
-	font-size: 12px;
-	margin-top: 5px;
-	font-family: 'Helvetica','Roboto',sans-serif;
-}
-
-.password > p > span >a {
-	color: #fff;
-}
-
-.password > p > span > a:hover {
-	color: #0099FF;
-}
-
-.tableRow #msgPass{
-	color: #fff;
-}
 /*------------------RODAPÉ----------------------*/
 
 footer {
