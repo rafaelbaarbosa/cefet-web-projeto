@@ -117,6 +117,20 @@ a:hover {
 	width: 100px;
 }
 
+.password > p > span {
+	float: right;
+	font-size: 12px;
+	margin-top: 5px;
+	font-family: 'Helvetica','Roboto',sans-serif;
+}
+
+.password > p > span >a {
+	color: #fff;
+}
+
+.password > p > span > a:hover {
+	color: #0099FF;
+}
 /*------------------RODAPÉ----------------------*/
 
 footer {
