@@ -2,16 +2,26 @@ body {
 	background-image: url(../img/05.jpg);
 }
 
-p, h2{
-	color: #0099FF;
-	font-family: 'Helvetica', sans-serif;
-}
 
 h2 {
 	font-size: 36px;
 	margin: 0 auto;
 	text-align: center;
-	text-shadow: 1px 1px #fff;
+	margin-bottom: 25px;
+	/*text-shadow: 1px 1px #fff;*/
+}
+
+.info{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	min-height: 40px;
+	margin-bottom: 15px;
+
+	background: rgba(255,255,255,0);
+}
+
+.containerS{
+	border-radius: 5px;
 }
 
 .containerS p {
@@ -42,10 +52,15 @@ h2 {
 }
 
 #button {
+	border: 1px solid #0099FF;
+	border-radius: 5px;
+	/*min-height: 40px;*/
+
 	position: absolute;
 	width: 150px;	
-	height: 25px;
+	height: 40px;
 	right: 0px;
-	margin-top: 10px;
-	color: #696969;
+	margin-top: 5px;
+	color: white;
+	background-color: #0099FF;
 }

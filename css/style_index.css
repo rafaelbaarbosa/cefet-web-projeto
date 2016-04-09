@@ -14,13 +14,10 @@ body, html{
 	height: 100%;
 }
 
-header a:hover{
-	color: #fff;
-}
-
 #recipiente h2, p{
 	text-align: center;
 	color: #fff;
+	text-decoration: none;
 }
 
 #recipiente {
