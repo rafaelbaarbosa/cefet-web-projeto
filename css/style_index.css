@@ -1,5 +1,6 @@
 body {
-	background-image: url(../img/02.jpg);    
+	background-image: url(../img/02.jpg);
+
 }
 
 h3{
@@ -7,6 +8,10 @@ h3{
 	text-decoration: underline;
 	color: #0099FF;
 	font-size: 28px;
+}
+
+body, html{
+	height: 100%;
 }
 
 header a:hover{
@@ -25,7 +30,7 @@ header a:hover{
 	background-color: #111;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	margin-bottom: -16px;
+	/*margin-bottom: -16px;*/
 }
 
 #recipiente h1{

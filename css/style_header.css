@@ -2,7 +2,7 @@ body {
 	background-repeat: no-repeat;	
 	background-position: top center;
     background-attachment: fixed;
-    background-size: 1288px 800px;
+    background-size: cover;
 
 	font-family: 'Roboto', sans-serif;
 	color: white;
