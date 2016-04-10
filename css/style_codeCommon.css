@@ -11,6 +11,8 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Roboto';
+    
+	box-sizing: border-box;
 }
 
 header a:hover{

@@ -29,43 +29,44 @@
           			<h2>Insert your Information</h2>
           		</div>
 	          	<div class="tableRow">
-	          		<p> Name: </p>
-					<p> <input type="text" name="name" value="" placeholder="Enter the name championship"> </p>	
+	          		<!-- <p> Name: </p> -->
+					<p> <input type="text" name="name" value="" placeholder="Enter the name championship" class="info" > </p>	
 				</div>				
 
 				<div class="tableRow">
-	          		<p> Numbers of participations </p>
-					<p> <input type="number" name="nParticipatiosn" value="" > </p>	
+	          		<!-- <p> Numbers of participations </p> -->
+					<p> <input type="number" name="nParticipatiosn" value="" placeholder="Numbers of participations"  class="info" min="2" max="1024" step="2"> </p>	
 				</div>
 
 				<div class="tableRow">
-	          		<p> Start Date </p>
-					<p> <input id="startDate" type="date" name="startDate" value=""> </p>	
+	          		<!-- <p> Start Date </p> -->
+					<p> <input id="startDate" type="date" name="startDate" value="" class="info" > </p>	
 				</div>
 
 				<div class="tableRow">
-	          		<p> End Date </p>
-					<p> <input type="date" name="endDate" value=""> </p>	
+	          		<!-- <p> End Date </p> -->
+					<p> <input type="date" name="endDate" value="" class="info" > </p>	
 				</div>
 
 				<div class="tableRow">
-	          		<p> Start Time </p>
-					<p class="teste2" id="startTime"> <input type="time" name="startTime" value=""> </p>	
+	          		<!-- <p> Start Time </p> -->
+					<p class="teste2" id="startTime"> <input type="time" name="startTime" value="" class="info" > </p>	
 				</div>
 
 				<div class="tableRow">
-	          		<p> End Time </p>
-					<p class="teste2" id="endTime"> <input type="time" name="endTime" value=""> </p>	
+	          		<!-- <p> End Time </p> -->
+					<p class="teste2" id="endTime"> <input type="time" name="endTime" value="" class="info" > </p>	
 				</div>	
 
 				<div class="tableRow teste">
-	          		<input id="button" type="submit" name="theButton">
+	          		<!-- <input id="button" type="submit" name="theButton"> -->
+	          		<input id="button" type="submit" name="theButton" value="Submit" onclick=" window.open('../pages/championships.html')">
 				</div>	
           	</form>
     	</div>
     </div>
     <footer>
-	  <div class="container">
+	  <div class="container-footer">
 	    <ul class="social">
 	      <li><a href="http://facebook.com/#">Facebook</a></li>
 	      <li><a href="http://twitter.com/#">Twitter</a></li>
