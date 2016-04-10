@@ -6,11 +6,18 @@ h2 {
 	font-size: 36px;
 	margin: 0 auto;
 	text-align: center;
-	text-shadow: 1px 1px #fff;
+	margin-bottom: 10px;
+	/*text-shadow: 1px 1px #fff;*/
 }
 
 #button {	
-	margin-top: 15px;	
+	/*margin-top: 15px;	
 	height: 25px;
-	color: #0099FF;	
+	color: #0099FF;	*/
+
+	border: 1px solid #0099FF;
+	border-radius: 5px;	
+	height: 40px;
+	color: white;
+	background-color: #0099FF;
 }
