@@ -2,8 +2,15 @@ body {
   background-image: url(../img/06.jpg);
 }
 
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
 .containerS {
   width: 950px;
+  height: 100%;
+  border-radius: 0px;
 }
 
 #teste {
@@ -32,20 +39,45 @@ body {
 }
 
 #button {
-  border-radius: 5px;
   margin: 0px;
   position: absolute;
   right: 15px;
-  top: 60px;
-  color: #0099FF;
+  top: 45px;
+  border: 1px solid #0099FF;
+  border-radius: 5px; 
+  height: 40px;
+  color: white;
+  background-color: #0099FF;
+}
+
+td{
+  text-align: left;
+}
+
+table, th{
+  text-align: center;
+}
+
+th, td{
+  border-bottom: 3px solid grey;
+}
+
+table{
+  border: 3px solid grey;
 }
 
 table, th, td {
-    border: 1px solid #111;
     border-collapse: collapse;
-    text-align: center;
     width: 900px;
     margin-top: 10px;
-    background-color: #696969;
     margin: auto;
+    padding: 15px;
+}
+
+tr:nth-child(even){
+  background-color: #202020;
+}
+
+tr:nth-child(odd){
+  background-color: #181818;
 }
