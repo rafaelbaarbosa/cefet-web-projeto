@@ -4,6 +4,12 @@ form {
 	box-sizing: border-box;
 }
 
+
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
 body{
 
 	background-repeat: no-repeat;	
@@ -11,7 +17,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Roboto';
-    
+
 	box-sizing: border-box;
 }
 

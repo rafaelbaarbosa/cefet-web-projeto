@@ -3,11 +3,7 @@ body {
 
 }
 
-body, html{
-	height: 100%;
-	width: 100%;
-}
-
+/*
 #recipiente h2, p{
 	text-align: center;
 	color: #fff;
@@ -35,7 +31,33 @@ body, html{
 	color: #fff;
 	text-shadow: 0px 0px;
 }
+*/
 
+
+.containerS {
+	width: 900px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.containerS h2, p{
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+
+.containerS h1{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 48px;
+	color: #0099FF;
+}
+
+.containerS h2{
+	font-size: 26px;
+	color: #fff;
+	margin-bottom: 20px;
+}
 #media img{ 
 	display: inline;
 	width: 320px;
