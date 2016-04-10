@@ -4,42 +4,9 @@ body {
 	position: relative;
 }
 
-nav ul {	
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-	margin-top: -8px;
-	margin-left: -8px;
-	margin-right: -8px;	
-}
-
-nav ul li {
-    float: left;
-	width:20%;
-}
-
-nav ul li a {
-    display: block;
-	color: #0099FF;
-	font-weight: bold;
-    text-align: center;
-    padding: 20px 16px 10px 16px;
-    text-decoration: none;
-	height: 30px;
-}
-
-nav ul li a:hover {
-    background-color: #111;    
-    text-decoration: none;
-}
-
-/*
-header{
+header nav{
 	background-color: #333;
 	display: flex;
-	padding: 1em;
 	text-align: center;
 	color: white;
 	margin-top: -8px;
@@ -49,13 +16,14 @@ header{
 
 header a{
 	flex:1;
-	padding: 0.5em;
+	padding: 1.5em;
 	color: #0099FF;
-	font-weight: bold;
+	font-weight: bold;	  
+    text-decoration: none;
 }
 
 header a:hover{
-	text-decoration: underline;
+    background-color: #111;    
 }
 
 header a:link, a:visited{
@@ -64,4 +32,4 @@ header a:link, a:visited{
 
 header a:first-child{
 	flex:2;
-}*/
+}
