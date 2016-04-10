@@ -3,15 +3,9 @@ body {
 
 }
 
-h3{
-	text-align: center;
-	text-decoration: underline;
-	color: #0099FF;
-	font-size: 28px;
-}
-
 body, html{
 	height: 100%;
+	width: 100%;
 }
 
 #recipiente h2, p{
@@ -25,6 +19,7 @@ body, html{
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #111;
+	height: 100%;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	/*margin-bottom: -16px;*/

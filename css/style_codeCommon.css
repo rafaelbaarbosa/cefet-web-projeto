@@ -10,6 +10,7 @@ body{
 	background-position: top center;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Roboto';
 }
 
 header a:hover{
@@ -26,7 +27,7 @@ header a:hover{
 	width: 100px;
 }
 
-p, h2,h1{
+h2,h1{
 	color: #0099FF;
 	font-family: 'Roboto', sans-serif;
 }
@@ -38,15 +39,20 @@ h2 {
 	text-decoration: underline;
 }
 
+h3{
+	text-align: center;
+	text-decoration: underline;
+	color: #0099FF;
+	font-size: 28px;
+}
+
 a:link {
 	text-decoration: none;
 	color: #0099FF;
-	font-weight: bold;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #fff;
 }
 
 #button:hover{
@@ -61,7 +67,7 @@ a:hover {
 	width: 450px;
 	box-sizing: border-box;
 	background-color: #111;
-	 
+	border-radius: 5px;
 }
 
 .containerS p {
@@ -78,4 +84,13 @@ a:hover {
 	color: #C0C0C0;
 	box-sizing: border-box;
 	text-align: center;
+}
+
+.info{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	min-height: 40px;
+	margin-bottom: 15px;
+
+	background: rgba(255,255,255,0);
 }
