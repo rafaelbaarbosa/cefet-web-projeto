@@ -11,6 +11,10 @@ h2 {
 	/*text-shadow: 1px 1px #fff;*/
 }
 
+.container {
+	padding-bottom: 50px;
+}
+
 .containerS p {
 	margin: 0px;
 	padding: 3px;
