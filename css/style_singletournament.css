@@ -15,7 +15,6 @@ body, html{
 	padding-top: 1px;
 	padding-bottom: 1px;
 	position: relative;
-	height: 100%;
 }
 
 #recipiente h1{
@@ -39,11 +38,11 @@ table, th{
 }
 
 th, td{
-  border-bottom: 3px solid grey;
+  border-bottom: 3px solid gray;
 }
 
 table{
-  border: 3px solid grey;
+  border: 3px solid gray;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -81,6 +80,3 @@ tr:nth-child(odd){
 	text-decoration: underline;
 }
 
-footer{
-	margin-top: -20px;
-}
