@@ -54,6 +54,10 @@ td{
   text-align: left;
 }
 
+footer{
+  margin-top: -20px;
+}
+
 table, th{
   text-align: center;
 }

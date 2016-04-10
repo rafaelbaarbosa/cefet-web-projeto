@@ -2,11 +2,7 @@ body {
 	background-image: url(../img/04.jpg);
 }
 
-#button {	
-	/*margin-top: 15px;	
-	height: 25px;
-	color: #0099FF;	*/
-
+#button {
 	border: 1px solid #0099FF;
 	border-radius: 5px;	
 	height: 40px;
