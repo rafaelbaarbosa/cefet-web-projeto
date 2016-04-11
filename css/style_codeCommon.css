@@ -21,11 +21,6 @@ body{
 	box-sizing: border-box;
 }
 
-header a:hover{
-	text-decoration: underline;
-	color: #0099FF;
-}
-
 #login_header {
 	margin-top: 20px;
 	text-align: center;
@@ -58,11 +53,11 @@ a:link {
 	text-decoration: none;
 	color: #0099FF;
 }
-
+/*
 a:hover {
 	text-decoration: underline;
 }
-
+*/
 #button:hover{
 	/*color: #0000CD;*/
 	background-color: #0066FF;
