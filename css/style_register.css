@@ -8,7 +8,10 @@ h2 {
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 25px;
-	/*text-shadow: 1px 1px #fff;*/
+	
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 49px;
 }
 
 .container {

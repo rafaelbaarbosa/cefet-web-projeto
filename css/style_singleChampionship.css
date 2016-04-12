@@ -29,14 +29,6 @@ body, html{
 	padding-left: 20px;
 }
 
-td{
-  text-align: left;
-}
-
-table, th{
-  text-align: center;
-}
-
 th, td{
   border-bottom: 3px solid gray;
 }
@@ -53,6 +45,7 @@ table, th, td {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+    text-align: left;
 }
 
 tr:nth-child(even){
@@ -78,5 +71,9 @@ tr:nth-child(odd){
 #teams{
 	color: #0099FF;
 	text-decoration: underline;
+}
+
+footer{
+	margin-top: -20px;
 }
 

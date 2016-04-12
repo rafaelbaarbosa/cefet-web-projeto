@@ -25,6 +25,10 @@ h1{
 	text-align: center;
 	margin-bottom: 25px;
 	text-decoration: underline;
+
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 51px;
 }
 
 .password > p > span {

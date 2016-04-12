@@ -49,16 +49,8 @@ nav ul li {
   background-color: #0099FF;
 }
 
-td{
-  text-align: left;
-}
-
 footer{
   margin-top: -20px;
-}
-
-table, th{
-  text-align: center;
 }
 
 th, td{

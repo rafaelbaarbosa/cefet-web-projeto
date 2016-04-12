@@ -37,6 +37,7 @@ body {
 	width: 900px;
 	padding-top: 1px;
 	padding-bottom: 1px;
+	border-radius: 0px;
 }
 
 .containerS h2, p{
@@ -50,6 +51,14 @@ body {
 	text-align: center;
 	font-size: 48px;
 	color: #0099FF;
+
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 65px;
+}
+
+#dondo{
+	height: 180px;
 }
 
 .containerS h2{
@@ -63,7 +72,7 @@ body {
 }
 
 .leftphoto{
-	padding-left: 120px;
+	padding-left: 100px;
 }
 
 .rightphoto{
