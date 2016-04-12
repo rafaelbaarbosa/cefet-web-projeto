@@ -53,13 +53,8 @@ a:link {
 	text-decoration: none;
 	color: #0099FF;
 }
-/*
-a:hover {
-	text-decoration: underline;
-}
-*/
+
 #button:hover{
-	/*color: #0000CD;*/
 	background-color: #0066FF;
 	border-color: #0066FF;
 }
