@@ -1,7 +1,3 @@
-body{
-	background-image: url(../img/02.jpg);
-}
-
 body, html{
 	height: 100%;
 	width: 100%;
@@ -71,5 +67,12 @@ tr:nth-child(odd){
 #teams{
 	color: #0099FF;
 	text-decoration: underline;
+}
+
+footer{
+	margin-top: -20px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
