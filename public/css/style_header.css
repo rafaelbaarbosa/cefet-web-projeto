@@ -1,0 +1,33 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position: relative;
+}
+
+header nav{
+	background-color: #333;
+	display: flex;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+
+header a{
+	flex:1;
+	padding: 1.5em;
+	color: #0099FF;
+	font-weight: bold;	  
+    text-decoration: none;
+}
+
+header a:hover{
+    background-color: #111;    
+}
+
+header a:link, a:visited{
+	text-decoration: none;
+}
+
+header a:first-child{
+	flex:2;
+}

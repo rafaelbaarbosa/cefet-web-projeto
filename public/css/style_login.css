@@ -1,0 +1,51 @@
+#button {
+	border: 1px solid #0099FF;
+	border-radius: 5px;	
+	height: 40px;
+	color: white;
+	background-color: #0099FF;
+}
+
+a{
+	color: #0099FF;
+}
+
+#newhere{
+	text-align: center;
+	padding-top: 16px;
+}
+
+h1{
+	font-size: 36px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 25px;
+	text-decoration: underline;
+
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 51px;
+}
+
+.password > p > span {
+	float: right;
+	font-size: 12px;
+	margin-top: 5px;
+	font-family: 'Roboto','Helvetica',sans-serif;
+}
+
+.password > p > span >a {
+	color: #fff;
+}
+
+.password > p > span > a:hover {
+	color: #0099FF;
+}
+
+.tableRow #msgPass{
+	color: #fff;
+}
+
+footer{
+	margin: 0 auto;
+}

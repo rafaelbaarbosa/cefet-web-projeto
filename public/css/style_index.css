@@ -1,0 +1,60 @@
+.containerS {
+	width: 900px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 0px;
+}
+
+.containerS h2, p{
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+
+.containerS h1{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 48px;
+	color: #0099FF;
+
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 65px;
+}
+
+#dondo{
+	height: 180px;
+}
+
+.containerS h2{
+	font-size: 26px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+#media img{ 
+	display: inline;
+	width: 320px;
+}
+
+.leftphoto{
+	padding-left: 100px;
+}
+
+.rightphoto{
+	padding-left: 20px;
+}
+
+#media img:last-child{
+    padding-top: 20px;
+}
+.tournamenttitle{
+	color: #0099FF;
+	text-decoration: underline;
+}
+
+footer{
+	margin-top: -20px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}

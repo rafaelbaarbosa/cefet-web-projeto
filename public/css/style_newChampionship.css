@@ -1,0 +1,27 @@
+nav ul li {
+ 	width:25%;
+}
+
+h2 {
+	font-size: 36px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+	
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 98px;
+	padding-left: 100px;
+}
+
+#button {
+	border: 1px solid #0099FF;
+	border-radius: 5px;	
+	height: 40px;
+	color: white;
+	background-color: #0099FF;
+}
+
+footer{
+	margin: 0 auto;
+}
