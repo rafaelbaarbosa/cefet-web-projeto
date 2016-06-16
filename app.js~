@@ -9,7 +9,6 @@ var session = require('express-session');
 var bodyParser = require('body-parser');
 var flash = require('connect-flash');
 var methodOverride = require('method-override');
-var path = require('path');
 
 var routes = require('./routes/user');
 
