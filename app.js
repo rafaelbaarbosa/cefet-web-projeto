@@ -13,6 +13,7 @@ var path = require('path');
 
 var routes = require('./routes/user');
 
+app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
@@ -34,6 +35,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/',function(req,res){
   res.render('index.html');
   //It will find and locate index.html from View or Scripts
+});
+
+
+var server = app.listen(app.get('port'), function () {
+  console.log('Servidor aberto em http://localhost:' + server.address().port);
 });
 
 module.exports = app;

@@ -9,6 +9,7 @@ var session = require('express-session');
 var bodyParser = require('body-parser');
 var flash = require('connect-flash');
 var methodOverride = require('method-override');
+var path = require('path');
 
 var routes = require('./routes/user');
 
@@ -33,6 +34,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/',function(req,res){
   res.render('index.html');
   //It will find and locate index.html from View or Scripts
+});
+
+
+var server = app.listen(app.get('port'), function () {
+  console.log('Servidor aberto em http://localhost:' + server.address().port);
 });
 
 module.exports = app;
