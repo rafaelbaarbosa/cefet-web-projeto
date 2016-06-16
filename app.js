@@ -1,15 +1,19 @@
-var express = require('express');
-var    app = express();
+var express  = require('express'),
+	app		 = express(),
+	fs		 = require('fs'),
+	User	 = require('./model/user'),
+	ObjectId = require('mongodb').ObjectID,
+	db = require('./config/db');
 
-app.set('port', process.env.PORT || 3000);
-app.set('views', '/views');
+
+app.set('views', __dirname + '/views');
 app.set('view engine', 'hbs');
+app.set('port', (process.env.PORT || 3000));
+app.use(express.static(__dirname + '/css'));
+app.use(express.static(__dirname + '/img'));
+app.use(express.static(__dirname + '/pages'));
 
-
-app.use(express.static(__dirname + '/pages/'));
-console.log(__dirname + '/pages/');
-
-//abrir o servidor
-var server = app.listen(app.get('port'), function () {
-  console.log('Servidor aberto em http://localhost:' + server.address().port);
+app.get('/',function(req,res){
+  res.render('index.html');
+  //It will find and locate index.html from View or Scripts
 });
