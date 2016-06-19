@@ -22,7 +22,7 @@
     <div class="container">
 
       <div class="containerS">
-          	<form action="new_championship">
+          	<form action="new_championship" method="POST">
           		<div class="tableRow">
           			<h2>Insert your Information</h2>
           		</div>
@@ -31,11 +31,11 @@
 				</div>
 
 				<div class="tableRow">
-					<p> <input type="number" name="nParticipatiosn" value="" placeholder="Numbers of participants"  class="info" min="2" max="1024" step="2"> </p>
+					<p> <input type="number" name="nParticipatios" value="" placeholder="Numbers of participants"  class="info" min="2" max="1024" step="2"> </p>
 				</div>
 
 				<div class="tableRow">
-					<p> <input id="teamname" type="text" name="teamname1" value="" placeholder="Team Name 1" class="info" > </p>
+					<p> <input id="admin" type="text" name="admin" value="" placeholder="Name admin" class="info" > </p>
 				</div>
 
 				<div class="tableRow">
@@ -51,7 +51,7 @@
 				</div>
 
 				<div class="tableRow teste">
-	          		<input id="button" type="submit" name="theButton" value="Submit" onclick=" window.open('../championships')">
+	          		<input id="button" type="submit" name="theButton" value="Submit">
 				</div>
           	</form>
     	</div>

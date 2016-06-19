@@ -9,3 +9,8 @@ $ sudo npm install
 $ sudo npm start
 
 $ node app.js
+
+
+referencias
+
+http://mongoosejs.com/docs/populate.html

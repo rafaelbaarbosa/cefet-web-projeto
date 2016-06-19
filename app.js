@@ -12,6 +12,7 @@ var methodOverride = require('method-override');
 var path = require('path');
 
 var User = require('./routes/user');
+var Championship = require('./routes/championship');
 
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
@@ -87,6 +88,48 @@ app.post('/signup',function(req,res){
       	console.log('User created!');
         req.flash('Success','successfully created user!');
         res.redirect('/login');
+      }
+  });
+
+});
+
+/*Create new new_championship*/
+app.post('/new_championship',function(req,res){
+
+  var number = req.body.nParticipatins;
+   User.findOne({username: req.body.admin}, function(err,user){
+	  	if (!user) {
+  		console.log(err);
+        req.flash('error','Admin not exists, tyr new admin!');
+        res.redirect('/new_championship');
+	      }else if(err){
+              console.log(err);
+              req.flash('error', 'Ocorreu um error');
+              res.redirect('/new_championship');
+            }
+	      else{
+	      	console.log('User exists!');
+	      	console.log(user.username);
+	        
+	      }
+	  })
+  var newChampion = new Championship({
+  	  name: req.body.name,
+	  n_participants: req.body.nParticipatins,
+	  admin: user
+	 
+  });
+
+  newChampion.save(function(err) {
+  	if (err) {
+  		console.log(err);
+        req.flash('error','Championship already exists, tyr new name!');
+        res.redirect('/new_championship');
+      }
+      else{
+      	console.log('Championship created!');
+        req.flash('Success','successfully created championship!');
+        res.redirect('/championships');
       }
   });
 
