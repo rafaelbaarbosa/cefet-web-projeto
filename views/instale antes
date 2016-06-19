@@ -1,6 +1,9 @@
 node
 https://www.digitalocean.com/community/tutorials/como-instalar-o-node-js-em-um-servidor-ubuntu-14-04-pt
 
+mongodb
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
 $ sudo npm install
 
 $ sudo npm start

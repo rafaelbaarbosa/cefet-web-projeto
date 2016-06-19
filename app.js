@@ -11,8 +11,7 @@ var flash = require('connect-flash');
 var methodOverride = require('method-override');
 var path = require('path');
 
-
-var routes = require('./routes/user');
+var User = require('./routes/user');
 
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
@@ -64,9 +63,33 @@ app.get('/new_championship',function(req,res){
 });
 
 /*POST*/
-app.post('/routes/new_championship',function(req,res){
-  res.render('new_championship.hbs');
-  //It will find and locate index.html from View or Scripts
+/*Create new user*/
+app.post('/signup',function(req,res){
+  var email = req.body.email;
+  var confirmEmail = req.body.confirmEmail;
+  var password = req.body.password;  
+  var confirmPassword = req.body.confirmPassword;
+
+  var newUser = new User({
+  	  username: req.body.userName,
+	  password: req.body.password,
+	  date_birth: req.body.date,
+	  email: req.body.email
+  });
+
+  newUser.save(function(err) {
+  	if (err) {
+  		console.log(err);
+        req.flash('error','Username already exists, tyr new user name!');
+        res.redirect('/register');
+      }
+      else{
+      	console.log('User created!');
+        req.flash('Success','successfully created user!');
+        res.redirect('/login');
+      }
+  });
+
 });
 
 
