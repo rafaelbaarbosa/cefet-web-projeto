@@ -1,0 +1,8 @@
+node
+https://www.digitalocean.com/community/tutorials/como-instalar-o-node-js-em-um-servidor-ubuntu-14-04-pt
+
+$ sudo npm install
+
+$ sudo npm start
+
+$ node app.js

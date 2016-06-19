@@ -58,6 +58,17 @@ app.get('/championships',function(req,res){
   //It will find and locate index.html from View or Scripts
 });
 
+app.get('/new_championship',function(req,res){
+  res.render('new_championship.hbs');
+  //It will find and locate index.html from View or Scripts
+});
+
+/*POST*/
+app.post('/routes/new_championship',function(req,res){
+  res.render('new_championship.hbs');
+  //It will find and locate index.html from View or Scripts
+});
+
 
 var server = app.listen(app.get('port'), function () {
   console.log('Servidor aberto em http://localhost:' + server.address().port);
